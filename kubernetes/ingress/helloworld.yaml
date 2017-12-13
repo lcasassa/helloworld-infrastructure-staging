@@ -4,7 +4,8 @@ metadata:
   name: helloworld
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: "istio"
+    #kubernetes.io/ingress.class: "istio"
+    kubernetes.io/ingress.global-static-ip-name: "helloworld-staging-staticip"
 spec:
   backend:
     serviceName: helloworld
