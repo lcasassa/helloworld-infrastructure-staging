@@ -17,7 +17,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: gcr.io/peinau-187709/helloworld:70a5e2e43e0e7cf81b6eced1fbeb9ee7a658fea1
+      - image: gcr.io/peinau-187709/helloworld:ab9932160fbc99e5cbfb1f6ccf2e5a18ea82275f
         name: helloworld
         ports:
         - containerPort: 80
